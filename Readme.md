@@ -1,3 +1,10 @@
+# AutoSizingDatePicker
+UIDatePicker does not return valid a intrinsic size, which is hard to support Dynamic Type Accessibility.
+
+AutoSizingDatePicker overrides `intrinsicContentSize` for better auto layout support.
+
+![Untitled](https://user-images.githubusercontent.com/14970271/149664819-5bfcc3ed-d440-42b3-a78d-41e86895d3e6.gif)
+
 # How to use
 ## Storyboard 
 Set a placeholder for intrinsic size like below, as the overridden intrinsic size is calculated at run time, not working at Interface Builder.
