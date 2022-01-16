@@ -3,27 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3C65A4412792A6B500EE58DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65A4402792A6B500EE58DE /* AppDelegate.swift */; };
-		3C65A4432792A6B500EE58DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65A4422792A6B500EE58DE /* SceneDelegate.swift */; };
 		3C65A4452792A6B500EE58DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65A4442792A6B500EE58DE /* ViewController.swift */; };
 		3C65A4482792A6B500EE58DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C65A4462792A6B500EE58DE /* Main.storyboard */; };
 		3C65A44A2792A6B600EE58DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C65A4492792A6B600EE58DE /* Assets.xcassets */; };
 		3C65A44D2792A6B600EE58DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C65A44B2792A6B600EE58DE /* LaunchScreen.storyboard */; };
+		3C65A4552792A73B00EE58DE /* AutoSizingDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65A4542792A73B00EE58DE /* AutoSizingDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C65A43D2792A6B500EE58DE /* AutoSizingDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoSizingDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C65A4402792A6B500EE58DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C65A4422792A6B500EE58DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3C65A4442792A6B500EE58DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C65A4472792A6B500EE58DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C65A4492792A6B600EE58DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C65A44C2792A6B600EE58DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C65A44E2792A6B600EE58DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C65A4542792A73B00EE58DE /* AutoSizingDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizingDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 		3C65A43F2792A6B500EE58DE /* AutoSizingDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				3C65A4542792A73B00EE58DE /* AutoSizingDatePicker.swift */,
 				3C65A4402792A6B500EE58DE /* AppDelegate.swift */,
-				3C65A4422792A6B500EE58DE /* SceneDelegate.swift */,
 				3C65A4442792A6B500EE58DE /* ViewController.swift */,
 				3C65A4462792A6B500EE58DE /* Main.storyboard */,
 				3C65A4492792A6B600EE58DE /* Assets.xcassets */,
@@ -103,7 +103,7 @@
 				};
 			};
 			buildConfigurationList = 3C65A4382792A6B500EE58DE /* Build configuration list for PBXProject "AutoSizingDatePicker" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -140,7 +140,7 @@
 			files = (
 				3C65A4452792A6B500EE58DE /* ViewController.swift in Sources */,
 				3C65A4412792A6B500EE58DE /* AppDelegate.swift in Sources */,
-				3C65A4432792A6B500EE58DE /* SceneDelegate.swift in Sources */,
+				3C65A4552792A73B00EE58DE /* AutoSizingDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
